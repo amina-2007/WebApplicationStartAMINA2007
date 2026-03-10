@@ -30,5 +30,13 @@ namespace WebApplicationStart.Controllers
             { return "ДОБРЫЙ ВЕЧЕР"; }
             return "Тут решение первой задачи";
         }
+
+        public string Task2(double a, double b)
+        {
+
+
+            return $"{a}+{b}={a + b}";
+        }
+
     }
 }
