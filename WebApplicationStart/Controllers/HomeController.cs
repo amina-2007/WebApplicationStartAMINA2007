@@ -38,5 +38,20 @@ namespace WebApplicationStart.Controllers
             return $"{a}+{b}={a + b}";
         }
 
+        public string Task3(double a, double b, string op)
+        {
+            if (op == "+")
+
+                return $"{a}+{b}={a + b}";
+
+            if (op == "-")
+
+                return $"{a}-{b}={a - b}";
+            if (op == "*")
+
+            { return $"{a}*{b}={a * b}"; }
+            return "0";
+
+        }
     }
 }
