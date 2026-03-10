@@ -1,18 +1,39 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    font-palette: light;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+body, header {
+    margin-bottom: 60px;
+    background-color: darkorchid;
+}
+
+p, h1, a, ul, li, .container {
+    color: darkkhaki;
+}
+
+    ul.test2 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+.test {
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 250px;
 }
